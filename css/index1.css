@@ -1,0 +1,200 @@
+/*Brogramer Team
+keyword: bro
+
+*/
+
+* {
+    font-size: 16px;
+    font-family:Verdana, Tahoma, sans-serif;
+}
+
+/*Login Form*/
+.bro-login {
+    padding: 20px;
+    border:2px solid black;
+    width: 400px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+.bro-input {
+    display:block;
+    width: 400px;
+    border:1px solid black;
+    border-radius: 5px;  
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.bro-button {
+    background-color: #3DA35D;
+    color: white;
+    border: none;
+    border-radius: 5px;  
+    width: 132px;
+    height: 40px;
+    margin:  10px 0px 10px 0px;
+    padding: 0;
+}
+
+@keyframes changeColor {
+    0%   {background-color:#3DA35D;}
+}
+
+.bro-button:hover{
+    background-color: blue;
+    animation-name: changeColor;
+    animation-duration: 2s;
+    border: 2px solid black;
+}
+
+.bro-width400px {
+    width: 400px!important;
+}
+
+.bro-link{
+    color:  rgba(61, 163, 93, 1);
+    text-decoration: none;
+}
+
+/*Navbar*/
+.bro-navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    border-bottom: 2px solid black;
+    margin: 0;
+}
+
+.bro-navbar-item{
+    background-color: white;
+    border: none;
+    width: 132px;
+    height: 40px;
+    padding: 0;
+    margin: 10px;
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.bro-logo{
+    display:inline-block;
+    vertical-align:top;
+    margin: 10px;
+}
+
+.bro-user{
+    background-color: white;
+    border: none;  
+    width: 132px;
+    margin:  10px 0px 9px 0px;
+    vertical-align:top;
+    text-align: center;
+    padding: 10.5px 0px 10.5px 0px;
+    float: right;
+}
+
+/**/
+.bro-container{
+    width: 80%;
+    margin: 10px auto 10px auto;
+    height: 125px;
+    border:2px solid black;   
+    
+}
+
+.bro-container-large{
+    width: 1000px;
+    height: 500px;
+    margin: 0px auto 0px auto;
+    border:2px solid black;  
+}
+
+.bro-chatbox {
+    width: 800px;
+    height: 500px;
+    margin: 120px auto 0px auto;
+    border:2px solid black;  
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.bro-chat-text-1{
+    background: rgba(0, 0, 0, 0.06);
+    border-radius: 18px 18px 18px 4px;
+    padding: 10.5px;
+    float:left;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bro-chat-text-2{
+    background: rgba(0, 0, 0, 0.06);
+    border-radius: 18px 18px 18px 4px;
+    padding: 10.5px;
+    float:right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bro-chat-avatar{
+    border-radius: 50%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bro-chat-avatar-empty{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bro-chat-time{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    clear:both;
+}
+
+.bro-chat-input{
+    display:block;
+    width: 500px;
+    border:1px solid black;
+    border-radius: 5px;  
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    position:absolute;
+    top: 570px;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+
+.bro-chat-button{
+    position:absolute;
+    top: 570px;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background-color: #3DA35D;
+    color: white;
+    border: none;
+    border-radius: 5px;  
+    width: 132px;
+    height: 40px;
+    margin:  10px 0px 10px 330px;
+    padding: 0;
+}
+
+.bro-chat-button:hover{
+    background-color: blue;
+    animation-name: changeColor;
+    animation-duration: 2s;
+    border: 2px solid black;
+}
